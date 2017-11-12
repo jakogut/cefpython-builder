@@ -1,0 +1,15 @@
+diff --git a/patches/patch.py b/patches/patch.py
+index 80a3392..7cc608f 100644
+--- a/patches/patch.py
++++ b/patches/patch.py
+@@ -17,6 +17,10 @@ patches.extend([
+         'name': 'issue125',
+         'path': '../net/http/'
+     },
++    {
++        'name': '0001-Fix-errors-on-gclient-sync-of-older-release-branches',
++        'path': './'
++    },
+ ])
+ 
+ # LINUX
